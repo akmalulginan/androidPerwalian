@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_move_to_inbox_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_dftr_mhs"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Daftar Mahasiswa" />
+        <item
+            android:id="@+id/nav_telahPerwalian"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Daftar Mahasiswa Telah Perwalian" />
+        <item
+            android:id="@+id/nav_belumPerwalian"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Daftar Mahasiswa Belum Perwalian" />
+        <item
+            android:id="@+id/nav_riwayatMhs"
+            android:icon="@drawable/ic_trash"
+            android:title="Riwayat Nilai Mahasiswa" />
+        <item
+            android:id="@+id/nav_dtailMhs"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Detail Mahasiswa" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_notif"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+        </menu>
+
+    </item>
+
+</menu>
