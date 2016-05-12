@@ -36,7 +36,7 @@ public class MahasiswaActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        changeContent(AddMatkulFragment.newInstance(this));
+        changeContent(HomeMhsFragment.newInstance(this));
     }
 
     @Override
