@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="id.jajaka.perwalian.fragment.AddMatkulFragment">
+    tools:context="com.psbk.perwalian.fragment.AddMatkulFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -253,7 +253,8 @@
         <Button
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="CARI"/>
+            android:text="CARI"
+            android:id="@+id/cariButton" />
     </TableLayout>
 
 

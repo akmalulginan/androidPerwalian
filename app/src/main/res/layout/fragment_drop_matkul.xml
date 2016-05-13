@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.jajaka.perwalian.fragment.DropMatkulFragment">
+    tools:context="com.psbk.perwalian.fragment.DropMatkulFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
