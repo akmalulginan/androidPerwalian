@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "id.jajaka.perwalian"
+        applicationId "com.psbk.perwalian"
         minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
